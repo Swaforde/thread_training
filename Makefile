@@ -1,5 +1,5 @@
 NAME = program
-SRCS = src/main.c src/thread.c
+SRCS = src/main.c
 OBJS = $(addprefix OBJ/, $(notdir $(SRCS:.c=.o)))
 CC = gcc
 RM = rm -f
